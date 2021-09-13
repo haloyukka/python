@@ -4,7 +4,7 @@
 
 |  ライブラリ名称  |  概要  |  URL  |
 | ---- | ---- | ---- |
-|  jupyter  |  ブラウザベースのたいお話形式エディタ  | https://jupyter.org/ |
+|  jupyter  |  ブラウザベースの対話形式エディタ  | https://jupyter.org/ |
 |  pandas  |  数表および時系列データを操作するためのデータ構造と演算  | https://pandas.pydata.org/docs/# |
 |  numpy  |  基本的な科学計算  | https://numpy.org/ |
 |  scipy  |  数学、科学、工学のための数値解析  | https://www.scipy.org/ |
