@@ -1,0 +1,97 @@
+そのPythonコードちょっと残念かも...6つの例【脱初心者！】〜Pythonプログラミング入門〜
+https://www.youtube.com/watch?v=GjbWHLB5zMA
+
+
+①if x == True
+
+if x == True:
+	print('xが真の時')
+
+if x:
+	print('xが真の時')
+
+
+②f文字列を使わない
+x = 200
+text = f'これは{x}円です。'
+
+f文字列を使った方がいいとき
+・数値を文字列に埋め込む
+・文字列の間に変数を埋め込む
+・複数個の変数を埋め込む
+
+
+③自作インクリメント変数
+【NG】
+i = 0
+for x in x_list:
+	i += 1
+
+x_list = [10, 30, 50]
+y_list = [20, 90, 40]
+
+【NG】
+i = 0
+for x in x_list:
+	y = y_list[i]
+	print(x + y)
+	i += 1
+
+【OK】
+for x, y in zip(x_list, y_list):
+	print(x + y)
+
+for文の中でインデックスの値を使いたい場合
+【NG】
+i = 0
+for x in x_list:
+ print(f'{i}番目のデータ: {x}')
+ i += 1
+
+【OK】以下のように記述することで変数iにインデックスを受け取ることができる
+for x, i in enumerate(x_list):
+	print(f'{i}番目のデータ: {x}')
+
+
+④リスト一括処理をforで
+numbers = [10, 21, 86]
+→頭に「No.」をつけて新しいリストを作成したい時
+
+【NG】
+new_list = []
+for n in numbers:
+ new_list.append(f'No.{n}')
+
+
+map関数、filter関数といった高階関数を使用する
+リスト内包表記を使う
+new_list = [f'No.{n}' for n in numbers]
+
+⑤import *
+
+from xxx import *
+全部をインポートしてしまう
+この書き方は非推奨
+関数がどのライブラリから呼び出されたものから呼び出されたものかわからなくなる
+
+コード量は少ない方が良い
+しかし、何が実行されているのかわからなくなるとバグが発生しやすくなる。
+コード量が多くても安全な書き方をする。
+
+⑥例外を握りつぶす
+例外を握りつぶすときは、以下のように例外発生時に何もしないケースをいう
+【NG】
+try:
+	with open('aaa.txt') as f:
+		s = f.read()
+except FileNotFoundError:
+	pass
+
+例外発生時にログを出力するしたり例外の送出をすべき。
+【OK】
+try:
+	with open('aaa.txt') as f:
+		s = f.read()
+except FileNotFoundError:
+	logger.error('aaa.txtが存在しません')
+	raise RileNotFoundError('aaa.txtが存在しません')
