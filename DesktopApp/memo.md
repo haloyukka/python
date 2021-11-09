@@ -1,4 +1,8 @@
-Tkinderのwidget  
+# ドキュメント
+https://docs.python.org/ja/3/library/tkinter.html
+
+
+# Tkinterのwidget  
 基底クラスの(Frame)のイニシャライザを呼ぶ  
 ```
 class Application(tkinter.Frame):
