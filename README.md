@@ -17,3 +17,6 @@
 |  keras  |  TD  | https://keras.io/ja/ |
 |  gensim  |  自然言語処理  | https://radimrehurek.com/gensim/ |
 |  pillow  |  画像処理  | https://pillow.readthedocs.io/en/stable/ |
+
+
+【Todo】学習すべきライブラリまとめを追記する
