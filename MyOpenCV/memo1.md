@@ -18,7 +18,7 @@ PythonでOpenCVを使用するメリットとしては、
 # OpenCVのインストール方法
 Windows  
 ```
-pip install opencv – python
+pip install opencv–python
 ```
 
 # OpenCVの機能
