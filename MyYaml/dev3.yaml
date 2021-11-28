@@ -1,0 +1,11 @@
+node1:
+  title: node1
+  options: &node1_options
+    request_max_size: 1000
+    timeout: 120
+
+node2:
+  name: node2
+  options:
+    <<: *node1_options
+    backoff_factor: 0.2

@@ -1,0 +1,7 @@
+title: app_title
+ip: &ip 127.0.0.1
+port: 443
+db_ip: *ip
+allow_hosts:
+  - 195.12.1.1
+  - 195.12.1.2
