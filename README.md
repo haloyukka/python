@@ -53,3 +53,10 @@
     - 比較的新しいライブラリであるが、FastAPI開発者が開発しており、FastAPIの使いやすさ、素晴らしさからも期待
     - https://sqlmodel.tiangolo.com/
 
+# 標準ライブラリ  
+数学関数  
+https://docs.python.org/ja/3/library/math.html  
+## math.floor(x)：切り捨て  
+x の「床」 (x 以下の最大の整数) を返します。 x が浮動小数点数でなければ、内部的に x.__floor__() が実行され、 Integral 値が返されます。  
+## math.ceil(x)：切り上げ  
+x の「天井」 (x 以上の最小の整数) を返します。 x が浮動小数点数でなければ、内部的に x.__ceil__() が実行され、 Integral 値が返されます。  
