@@ -1,5 +1,8 @@
 # python
 
+Python入門  
+https://atmarkit.itmedia.co.jp/ait/articles/1904/02/news024.html
+
 # ライブラリ一覧
 
 |  ライブラリ名称  |  概要  |  URL  |  GitHub  |
