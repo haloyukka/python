@@ -1,4 +1,9 @@
 # python
+Pythonドキュメント  
+https://docs.python.org/ja/3/
+
+Python標準ライブラリ  
+https://docs.python.org/ja/3/library/index.html
 
 Python入門  
 https://atmarkit.itmedia.co.jp/ait/articles/1904/02/news024.html
