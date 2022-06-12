@@ -28,6 +28,12 @@ def test_sum_numbers():
 
 4. 実行方法<br>
 4-1. testsディレクトリに移動<br>
-4-2. pytest [実行コード]<br>
+4-2. ` $ pytest [実行コード]`<br>
 例： pytest test_code.py
 
+## 複数のテストをコードをまとめて実行したい場合
+実行するコードファイル名を指定せずに、`pytest`のみで実行する。
+
+手順<br>
+1. testsディレクトリに移動<br>
+2. `$ pytest`<br>
