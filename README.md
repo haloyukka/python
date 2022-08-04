@@ -1,12 +1,15 @@
 # python
-Pythonドキュメント  
+Pythonドキュメント<br>
 https://docs.python.org/ja/3/
 
-Python標準ライブラリ  
+Python標準ライブラリ<br>
 https://docs.python.org/ja/3/library/index.html
 
-Python入門  
+Python入門<br>
 https://atmarkit.itmedia.co.jp/ait/articles/1904/02/news024.html
+
+グラフ化サンプルコード<br>
+https://www.data-to-viz.com/#bubble
 
 # ライブラリ一覧
 
