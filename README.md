@@ -29,6 +29,7 @@ https://www.data-to-viz.com/#bubble
 |  gensim  |  自然言語処理  | https://radimrehurek.com/gensim/ |https://github.com/RaRe-Technologies/gensim|
 |  pillow  |  画像処理  | https://pillow.readthedocs.io/en/stable/ |https://github.com/python-pillow/Pillow|
 |  kivy  |  GUI  | https://kivy.org/#home |https://github.com/kivy/kivy|
+|  FAST API  |  API  | https://fastapi.tiangolo.com/ |https://github.com/tiangolo/fastapi|
 
 
 
